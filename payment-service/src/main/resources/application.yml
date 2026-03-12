@@ -6,8 +6,8 @@ spring:
   kafka:
     bootstrap-servers: ${KAFKA_BROKER:localhost:9092}
     topic:
-      payment-success: payment-success
-      payment-fail: payment-fail
+      payment-success: payment-validation-success
+      payment-fail: payment-validation-fail
       orchestrator: orchestrator
     consumer:
       group-id: payment-group

@@ -1,4 +1,4 @@
-package br.com.microservices.orchestrated.orchestratorservice;
+package br.com.microservices.orchestrated.orchestratorservice.core.enums;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -12,11 +12,11 @@ public enum Etopics {
     FINISH_SUCCESS("finish-success"),
     FINISH_FAIL("finish-fail"),
     PRODUCT_VALIDATION_SUCCESS("product-validation-success"),
-    PRODUCT_VALIDATION_FAIL("product-validation.fail"),
+    PRODUCT_VALIDATION_FAIL("product-validation-fail"),
     INVENTORY_VALIDATION_SUCCESS("inventory-validation-success"),
-    INVENTORY_VALIDATION_FAIL("inventory-validation.fail"),
+    INVENTORY_VALIDATION_FAIL("inventory-validation-fail"),
     PAYMENT_VALIDATION_SUCCESS("payment-validation-success"),
-    PAYMENT_VALIDATION_FAIL("payment-validation.fail"),
+    PAYMENT_VALIDATION_FAIL("payment-validation-fail"),
     NOTIFY_ENDING("notify-ending");
 
     private String topic;
